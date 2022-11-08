@@ -1,0 +1,104 @@
+.login {
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image:linear-gradient(rgb(92, 90, 90),white) ;
+    background-repeat: no-repeat;
+
+}
+.card0 {
+    box-shadow: 2px 8px 16px 2px #2c2b2b;
+    border-radius: 0px
+}
+.card2 {
+    margin: 0px 40px
+}
+.logo {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 35px
+}
+.image {
+    width: 360px;
+    height: 280px
+}
+.
+.border-line {
+    border-right: 1px solid #EEEEEE
+}
+.facebook {
+    background-color: #3b5998;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+.twitter {
+    background-color: #1DA1F2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+.linkedin {
+    background-color: #2867B2;
+    color: #fff;
+    font-size: 18px;
+    padding-top: 5px;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    cursor: pointer
+}
+.line {
+    height: 1px;
+    width: 45%;
+    background-color: #E0E0E0;
+    margin-top: 10px
+}
+.text-sm {
+    font-size: 14px !important
+}
+input,
+textarea {
+    padding: 10px 12px 10px 12px;
+    border: 1px solid lightgrey;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #2C3E50;
+    font-size: 14px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+}
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #474d6d;
+    outline-width: 0
+}
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+a {
+    color: inherit;
+    cursor: pointer
+}
+.bg-blue {
+    color: #fff;
+    background-color: #696969
+}

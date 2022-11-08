@@ -1,0 +1,236 @@
+.product{
+    width: 1300px;
+    margin: 0 auto;
+  }
+  .container_product{
+    width: 1300px;
+    margin: 0 auto;
+    display: inline-flex;
+  }
+  .grid{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .bo_loc{
+    text-align: left;
+    padding-left: 10px;
+  }
+  .tat_ca{
+    text-align: center;
+  }
+  .sap_xep{
+    text-align: right;
+    padding-right: 40px;
+    height: 34px;
+    width: 180px;
+    border-radius: 3px;
+    background-color: white;
+    padding: 0 12px;
+    justify-content: space-between;
+    align-items: center;
+    display: inline-flex;
+  }
+  .grid_column-12{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 100%;
+  }
+  .grid_column-3{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+  
+  }
+  .home-product-item{
+    width: 25%;
+  }
+  .home-product-item-img-product{
+    width: 300px;
+    height: 23.07692%;
+    border-radius: 3px 3px;
+  }
+  .home-product-item-thongtin{
+    height: 60px;
+  }
+  .home-product-item-name{
+    font-size: 20px;
+    text-align: center;
+  }
+  .home-product-item-price{
+    font-size: 15px;
+    text-align: center;
+  }
+  .space{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* noi dung san pham */
+  .content_product{
+    width: 1350px;
+    padding-top: 10px;
+    background-color: white;
+  }
+  .img_product{
+    width: 60%;
+    display: inline-table;
+  }
+  .img_product-item{
+    width: 28%;
+    display: inline;
+  }
+  .img_product-item-detail{
+    width: 49.38271%;
+    height: 49.38271%;
+    border-radius: 3px;
+    padding-bottom: 4px;
+  }
+  .describe_product{
+    width: 35%;
+    display: inline-table;
+    top: 0;
+    margin: 0 auto;
+  
+    /* left: 60%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    position: fixed;
+    padding-top: 30%;
+    padding-bottom: 30%;
+    bottom: 0; */
+  }
+  /* Tên sản phẩm */
+  .describe_product-name{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 450;
+  
+  }
+  /* Giá sản phẩm */
+  .describe_product-price{
+    color: red;
+    text-align: center;
+    font-weight: bold;
+  }
+  /* Mô tả sản phẩm */
+  .describe_product-detail{
+    text-align: left;
+    margin-left: 5%;
+  }
+  /* Kích thước */
+  .describe_product-size{
+    display: inline-table;
+    padding-left: 20%;
+  }
+  .describe_product-size-name{
+    display: inline-table;
+  }
+  .describe_product-full-size-item{
+    display: inline-table;
+  }
+  .describe_product-size-item{
+    margin-left: 12px;
+    width: 35px;
+    height: 35px;
+    border-radius: 1px;
+    border-color: black;
+    border-width: 1.2px;
+  }
+  .describe_product-amount{
+    display: inline-table;
+    padding-left: 20%;
+    padding-top: 12px;
+  }
+  .describe_product-amount-left{
+    display: inline-table;
+    padding-right: 12px;
+  }
+  .buttons_added{
+    display: inline-table;
+  }
+  /* Thanh toán & thêm giỏ hàng */
+  .describe_product-pay{
+    width: 370px;
+    height: 35px;
+    background-color: black;
+    color: white;
+    border-radius: 3px 3px;
+    border-width: 0px;
+    margin: 5px;
+  }
+  .describe_product-pay:hover{
+    background-color: white;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+  }
+  .cart{
+    text-align: center;
+  }
+  /* Tăng Giảm Số lượng */
+  .describe_product-amount-calculation-minus{
+    width: 30px;
+    height: 30px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  .describe_product-amount-calculation-plus{
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+  }
+  .buttons_added {
+      opacity:1;
+      display:inline-block;
+      display:-ms-inline-flexbox;
+      display:inline-flex;
+      white-space:nowrap;
+      vertical-align:top;
+  }
+  .is-form {
+      overflow:hidden;
+      position:relative;
+      background-color:#f9f9f9;
+      height:2.2rem;
+      width:1.9rem;
+      padding:0;
+      text-shadow:1px 1px 1px #fff;
+      border:1px solid #ddd;
+  }
+  .is-form:focus,.input-text:focus {
+      outline:none;
+  }
+  .is-form.minus {
+      border-radius:4px 0 0 4px;
+  }
+  .is-form.plus {
+      border-radius:0 4px 4px 0;
+  }
+  .input-qty {
+      background-color:#fff;
+      height:2.2rem;
+      text-align:center;
+      font-size:1rem;
+      display:inline-block;
+      vertical-align:top;
+      margin:0;
+      border-top:1px solid #ddd;
+      border-bottom:1px solid #ddd;
+      border-left:0;
+      border-right:0;
+      padding:0;
+  }
+  .input-qty::-webkit-outer-spin-button,.input-qty::-webkit-inner-spin-button {
+      -webkit-appearance:none;
+      margin:0;
+  }
+  .describe_product-amount-number{
+    width: 40px;
+    height: 30px;
+    border: 2px;
+    text-align: center;
+  }

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="txt.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+  <div  class="header header sticky-top container-fluid  p-0 " >
+    <nav id="navbar" class="navbar  navbar-expand-lg navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon white-text"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item ">
+            <a class="nav-link link-3" href="index.html"><i class="bi bi-house-door-fill"></i></span></a>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle link-1 " href="#" data-toggle="dropdown">
+              Product
+            </a>
+            <ul id="sub-menu " class="dropdown-menu sub-menu dropdown-content " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item link-2" href="#">Shirts</a></li>
+                <li><a class="dropdown-item link-2" href="#">Skirts</a></li>
+                <li><a class="dropdown-item link-2" href="#">Frocks</a></li>
+                <li><a class="dropdown-item link-2" href="#">P.T. T-shirts</a></li>
+                <li><a class="dropdown-item link-2" href="#">P.T. shorts</a></li>
+                <li><a class="dropdown-item link-2" href="#">P.T. track pants</a></li>
+                <li><a class="dropdown-item link-2" href="#">Belts</a></li>
+                <li><a class="dropdown-item link-2" href="#">Ties</a></li>
+                <li><a class="dropdown-item link-2" href="#">Logos</a></li>
+                <li><a class="dropdown-item link-2" href="#">Socks</a></li>
+            </ul>
+        </li>
+          <li class="nav-item ">
+            <a class="nav-link link-1" href="about.html">About Us <span class="sr-only"></span></a>
+          </li> 
+          <li class="nav-item ">
+            <a class="nav-link link-1" href="blog.html">Blog<span class="sr-only"></span></a>
+          </li>     
+            <li class="nav-item ">
+              <a class="nav-link link-1" href="feedback.html">Feedback <span class="sr-only"></span></a>
+            </li>         
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle link-1" href="#" data-toggle="dropdown">
+                Shop
+              </a>
+              <ul id="sub-menu" class="dropdown-menu sub-menu dropdown-content" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item link-2" href="https://shopee.vn/">Shoppe</a></li>
+                  <li><a class="dropdown-item link-2" href="https://lazada.vn/">Lazada</a></li>
+                  <li><a class="dropdown-item link-2" href="https://tiki.vn/">Tiki</a></li>
+              </ul>
+          </li>     
+        </ul>
+    </nav>
+  </div>  
+<div class="register">   
+  <div class="container">
+    <div class="row py-5 mt-4 align-items-center">
+      <!-- For Demo Purpose -->
+      <div class="col-md-5 pr-lg-5 mb-5 mb-md-0">
+        <img src="https://res.cloudinary.com/mhmd/image/upload/v1569543678/form_d9sh6m.svg" alt="" class="img-fluid mb-3 d-none d-md-block">
+        <h1>Create an Account</h1>
+        <p class="font-italic text-muted mb-0">Create an account
+            Create a minimal registration page by entering complete information.</p>
+        <p class="font-italic text-muted">Shops<a href="https://bootstrapious.com" class="text-muted">
+            <u>A1-Uniform</u></a>
+        </p>
+      </div> 
+      <!-- Registeration Form -->
+      <div class="col-md-7 col-lg-6 ml-auto">
+        <form action="#">
+          <div class="row"> 
+            <!-- First Name -->
+            <div class="input-group col-lg-6 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-user text-muted"></i>
+                </span>
+              </div>
+              <input id="firstName" type="text" name="firstname" placeholder="First Name" class="form-control bg-white  ">
+            </div> 
+            <!-- Last Name -->
+            <div class="input-group col-lg-6 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-user text-muted"></i>
+                </span>
+              </div>
+              <input id="lastName" type="text" name="lastname" placeholder="Last Name" class="form-control bg-white ">
+            </div>
+            <!-- Email Address -->
+            <div class="input-group col-lg-12 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-envelope text-muted"></i>
+                </span>
+              </div>
+              <input id="email" type="email" name="email" placeholder="Email Address" class="form-control bg-white " required>
+            </div> 
+           <!-- Phone Number -->
+            <div class="input-group col-lg-12 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-phone-square text-muted"></i>
+                </span>
+              </div>
+              <select id="countryCode" name="countryCode" style="max-width: 80px" class="custom-select form-control bg-white border-left-0 border-md h-100 font-weight-bold text-muted">
+                <option value="">+84</option>
+                <option value="">+95</option>
+                <option value="">+76</option>
+                <option value="">+57</option>
+              </select>
+              <input id="phoneNumber" type="tel" name="phone" placeholder="Phone Number" class="form-control bg-white border-md border-left-0 pl-3">
+            </div>.
+            <!-- Job -->
+            <div class="input-group col-lg-12 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-black-tie text-muted"></i>
+                </span>
+              </div>
+              <select id="job" name="jobtitle" class="form-control custom-select bg-white  border-md">
+                <option value="">Choose your job</option>
+                <option value="">Designer</option>
+                <option value="">Developer</option>
+                <option value="">Manager</option>
+                <option value="">Accountant</option>
+              </select>
+            </div> 
+            <!-- Password -->
+            <div class="input-group col-lg-6 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-lock text-muted"></i>
+                </span>
+              </div>
+              <input id="password" type="password" name="password" placeholder="Password" class="form-control bg-white border-left-0 border-md">
+            </div> 
+            <!-- Password Confirmation -->
+            <div class="input-group col-lg-6 mb-4">
+              <div class="input-group-prepend">
+                <span class="input-group-text bg-white px-4 border-md border-right-0">
+                  <i class="fa fa-lock text-muted"></i>
+                </span>
+              </div>
+              <input id="passwordConfirmation" type="text" name="passwordConfirmation" placeholder="Confirm Password" class="form-control bg-white border-left-0 border-md">
+            </div> 
+            <!-- Submit Button -->
+            <div class="form-group col-lg-12 mx-auto mb-0">
+              <a href="#" class="btn btn-outline-primary btn-block py-2">
+                <span class="font-weight-bold">Create your account</span>
+              </a>
+              <input type="submit" value="dang ki">
+            </div> 
+            <!-- Divider Text -->
+            <div class="form-group col-lg-12 mx-auto d-flex align-items-center my-4">
+              <div class="border-bottom w-100 ml-5"></div>
+              <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
+              <div class="border-bottom w-100 mr-5"></div>
+            </div>
+            <!-- Social Login -->
+            <div class="form-group col-lg-12 mx-auto">
+              <a href="#" class="btn btn-primary btn-block ">
+                <i class="fa fa-facebook-f mr-2"></i>
+                <span class="font-weight-bold">Continue with Facebook</span>
+              </a>
+              <a href="#" class="btn btn-info btn-block">
+                <i class="fa fa-twitter mr-2"></i>
+                <span class="font-weight-bold">Continue with Twitter</span>
+              </a>
+              <a href="#" class="btn btn-secondary btn-block ">
+                <i class="bi bi-linkedin mr-2"></i>
+                <span class="font-weight-bold">Continue with Linkedin</span>
+              </a>  
+            </div>
+            
+            <!-- Already Registered -->
+            <div class="text-center w-100">
+              <p class="text-muted font-weight-bold">Already Registered? <a href="login.html" class="text-primary ml-2">Login</a></p>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>  
+
+<!--footer-->
+<footer class="footer">
+  <div class="container-fluid mx-auto">
+    <div class="row">
+        <div class="line mb-3 mx-auto"></div>
+        <div class="d-md-flex px-5 justify-content-around bd-highlight col-md-12 pt-5 pb-5 mb-3">
+            <div class="p-2 flex-fill bd-highlight mb-5 mb-md-0">
+            <a href="index.html"><div class="logo"><img src="A5.svg" height="100" width="100"></div></a>  
+              <small>Copyright &copy 2021</small>
+            </div>
+            <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                <h5 class="places">Ha Noi capital</h5>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+            </div>
+            <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                <h5 class="places">Da Nang city</h5>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+            </div>
+            <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                <h5 class="places">Ho Chi Minh city</h5>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+            </div>
+            <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                <h5 class="places">Hai Phong city</h5>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+                <p class="mb-0">......</p>
+            </div>
+            <div class="p-2 flex-fill bd-highlight mb-3 mb-md-0">
+                <h5 class="places">Some small establishments</h5>
+                <p class="mb-0">......</p>
+            </div>
+        </div>
+        <div class="line mb-3 mx-auto"></div>
+        <div class="line mb-3 mx-auto"></div>
+    </div>
+    <div class="row bottom-part">
+        <div class="d-lg-flex icon justify-content-between bd-highlight col-md-12 mb-5 px-5">
+          <div class="container">
+            <div class="button">
+                <div class="icon">
+                    <a href=""><i class="fa fa-facebook white-text" aria-hidden="true"></i></a>
+                </div>
+                <span>Facebook</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                  <a href=""><i class="fa fa-instagram white-text" aria-hidden="true"></i></a>
+                </div>
+                <span>Instagram</span>
+            </div> 
+            <div class="button">
+                <div class="icon">
+                  <a href=""><i class="fa fa-linkedin white-text" aria-hidden="true"></i></a>
+                </div>
+                <span>Linkedin</span>
+            </div>
+            <div class="button">
+                <div class="icon">
+                  <a href=""><i class="fa fa-twitter white-text" aria-hidden="true"></i></a>
+                </div>
+                <span>Twitter</span>
+            </div>  
+            <div class="button">
+                <div class="icon">
+                  <a href=""><i class="fa fa-youtube-play white-text" aria-hidden="true"></i></a>
+                </div>
+                <span>Youtube</span>
+                
+            </div>
+    </div>
+            <div class="p-3 flex-fill bd-highlight justify-content-left">
+                <div class="p-3 d-lg-flex  lin">
+                    <a href=""><div class="p-2 flex-fill d-flex bd-highlight white-text link-2">Product</div></a>
+                    <a href=""><div class="p-2 flex-fill d-flex bd-highlight  white-text link-2">About Us</div></a>
+                    <a href=""><div class="p-2 flex-fill d-flex bd-highlight  white-text link-2">Shop Link</div></a>
+                    <a href=""><div class="p-2 flex-fill d-flex bd-highlight  white-text link-2">Feedback</div></a>
+                </div>
+            </div>
+            <div class="p-2 align-self-center flex-fill bd-highlight lin">
+                <div class="bi bi-telephone-fill px-3 white-text">&nbsp;&nbsp;<span id="contact">888-777-666</span></div>
+              <a href="mailto:"><div class="bi bi-envelope-fill px-3 white-text">&nbsp;&nbsp;info@itcraft.in</div></a>
+            </div>
+        </div>
+    </div>
+  </div>
+  </footer>
+</body>
+</html>
